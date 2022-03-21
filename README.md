@@ -1,5 +1,13 @@
-# machine-perceptions-
+## hand control volume
 this project aims to adjust volume of the computer using gesture of the fingers.
-fisrt we need to download the 'hand_tracking_module' to run the imported module in the project, and so that we can reuse the code if we want to make another porject.
-then run the hand control volume,
-use your index finger and thumb to adjust the volume 
+
+fisrt we need to download the important modules.
+- hand_tracking_module
+- mediapipe
+- opencv
+- pycaw
+
+then run the hand control volume, mediapipe will detect your hand an it's landmarks,
+use your thumb and index finger to control the volume of your device.
+
+[this is the simulation] (https://drive.google.com/file/d/1456K6ma6zKAdIvdf0KSZKQ83kK6VMwTU/view?usp=sharing)
